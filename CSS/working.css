@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: antiquewhite;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(92, 72, 72); */
+}
+
+#logo{
+    margin: 12px 35px;
+
+}
+#logo img{
+    height: 60px; 
+    margin: 3px 6px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+    background-color: rgb(70, 51, 51);
+    position: absolute;
+    height: 20vh;
+    width: 100%;
+    z-index: -1;
+}
+
+#navbar ul li{
+   list-style: none;
+   font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+}
+#navbar ul li a:hover{
+    color: black;
+
+}
+.nav-right{
+    padding-left: 80px;
+}
+.nav-right a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn{
+    padding: 6px;
+    background-color: rgb(190, 127, 18);
+    border-radius: 10px;
+    margin: 12px;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background-color: brown;
+}
+
+.working{
+    margin: 50px;
+}
+.working-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh;
+}
+.working-head h4{
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.working-content ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
+}
+.working-content ul li{
+    list-style: none;
+    width: 20vw;
+    margin-inline: 5vw;
+}
+.list-3 span{
+    width: 15vw;
+}
+.list-3 h5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: skyblue;
+    width: 13vw;
+}
+.list-3 h5 a{
+    color: skyblue;
+    text-decoration: none;
+}
+
+.list-3 img:hover{
+    color: black;
+        
+}
+.list-3 h5:hover{
+    color: blue;
+    text-decoration: underline;
+    
+}
+
+
+
+
+
+
+.help{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.btn-help{
+    background-color: red;
+    color: blue;
+    padding: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-help:hover{
+    background-color: rgb(199, 92, 92);
+    color: rgb(53, 53, 115);
+    
+}
+
+footer{
+    
+    background-color: blueviolet;
+    height: auto;
+
+}
+.footer-main{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 5px;
+}
+.footer-a{
+    padding: 0px 8vw;
+}
+.footer-a ul li{
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+   
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin: 1vh;
+    color: white;
+}
+

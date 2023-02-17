@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.welcome{
+    position: fixed;
+    top: 20vh;
+    right: 25vw;
+}
+
+.vdo{
+    width: 98vw;
+    height: 98vh;   
+}
+
+.heading h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5rem;
+    color: rgb(98, 46, 14);
+}
+
+.heading h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.3rem;
+    color: rgb(98, 46, 14);
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+.buttons a {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+
+}
+
+.btn1 {
+    border: 1px solid;
+    margin-right: 10vw;
+    padding: 10px;
+    border-radius: 10px;
+    width: 13vw;
+    background-color: brown;
+}
+
+.btn2 {
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+    width: 16vw;
+    background-color: rgb(80, 80, 223);
+}

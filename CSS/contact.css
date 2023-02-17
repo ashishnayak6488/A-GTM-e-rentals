@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Lobster', cursive;; */
+}
+
+#navbar::before {
+    content: "";
+    background-color: antiquewhite;
+    color: black;
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    z-index: -1;
+}
+
+#navbar ul li a {
+    color: black;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    font-weight: bolder;
+}
+
+.section-main::before {
+    /* background-color: aqua; */
+    /* margin-bottom: 20px; */
+    content: "";
+    position: absolute;
+    background: url('../pic_b.jpg') no-repeat center center/cover;
+    height: 145%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+
+.section-main-0 {
+
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+
+
+
+}
+
+.section-main-1 {
+    padding: 0px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.section-main-3 {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.section-main h1{
+    text-align: center;
+    margin: 50px;
+    /* margin-bottom: 20px; */
+    font-size: 1.8rem;
+
+}
+
+.section-main-2 img {
+    height: 10vh;
+    width: 10vh;
+}
+
+.hr-width{
+    width: 70vw;
+    margin: auto;
+}
+
+
+.section-second{
+    margin-top: 40px;
+    display: flex;
+    
+
+
+}
+.section-second-left {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+
+}
+
+.section-second h1 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: rgb(64, 33, 33);
+
+}
+
+.form-box {
+
+    padding: 10px;
+
+
+
+}
+
+.form-box input {
+    padding: 6px;
+    width: 40vw;
+
+}
+.form-box textarea {
+    padding: 6px;
+    width: 40vw;
+
+}
+.btn a{
+    text-decoration: none;
+}
+
+.section-second-left{
+    justify-content: center;
+
+}
+.section-second-left img{
+    height: 70vh;
+    width: 27vw;
+    margin-left: 16vw;
+
+}
+
